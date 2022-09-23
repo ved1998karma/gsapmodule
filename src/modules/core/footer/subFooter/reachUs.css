@@ -1,0 +1,19 @@
+.reachus-wrapper {
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 250px;
+  border-radius: 32px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 786px) {
+  .reachus-wrapper {
+    padding: 20px 20px;
+    min-height: fit-content;
+    border-radius: 16px;
+  }
+}

@@ -1,0 +1,4 @@
+.banner_wrapper{
+    height: calc( 100vh - 90px );
+    background-color: var(--bg-primary);
+}
