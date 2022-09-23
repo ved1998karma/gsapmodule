@@ -1,8 +1,9 @@
-## Varaha Central Repo For Website Frontend.
+## Boilerplate 
 
 ### Tech Stack :
 
 - React
 - React DOM
 - React Router DOM
-- sass
+- CSS
+- React icons
