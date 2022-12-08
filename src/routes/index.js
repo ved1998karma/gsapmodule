@@ -9,14 +9,15 @@ import {
 } from "../screens";
 import { Header, Footer } from "../modules/core";
 import { UIContextProvider } from "../context/uiContext";
+import PlaygroundScreen from "../screens/playground";
 
 const ViewWithNavAndFooter = () => {
   return (
     <>
       <UIContextProvider>
-        <Header />
+        {/* <Header /> */}
         <Outlet />
-        <Footer />
+        {/* <Footer /> */}
       </UIContextProvider>
     </>
   );
@@ -32,6 +33,7 @@ const routes = () => {
         { path: "about", element: <AboutScreen /> },
         { path: "coming-soon", element: <ComingSoonScreen /> },
         { path: "career", element: <CareerScreen /> },
+        { path: "play", element: <PlaygroundScreen /> },
       ],
     },
     {

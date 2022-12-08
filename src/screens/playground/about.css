@@ -1,0 +1,14 @@
+.about-wrapper {
+  height: 100vh;
+}
+
+.text-hover {
+  position: relative;
+}
+.text-hover h3 {
+}
+.text-hover h3::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
